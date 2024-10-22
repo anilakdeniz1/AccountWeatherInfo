@@ -1,13 +1,13 @@
 Account Weather Info
 
-This is a simple component that shows weather information according to account's shipping city.
+This is a simple component that shows weather information according to the account's shipping city.
 
-In Apex side
+On the Server side
 * Created controller
 * Fetched the weather information from https://api.openweathermap.org
 * Created test classes
 
-In LWC side
+On the client
 * Created a component
 
 
