@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title={title} class="title">
+        <div class="slds-var-p-around_medium">
+            <div class="slds-grid grid-gutters slds-var-p-around_medium slds-border_top slds-text-heading_small">
+                <div class="slds-col slds-size_1-of-2">
+                    {description}
+                </div>
+                <div class="slds-col slds-size_1-of-2"> 
+                    {temperature}
+                </div>
+            </div>
+            <div class="slds slds-border_top ">
+                <img src={img} alt="Weather Logo" style="width: 70px; height: 70px;">
+            </div>
+        </div>
+    </lightning-card>
+</template>
